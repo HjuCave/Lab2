@@ -6,7 +6,7 @@ namespace ConsoleApplication11
 	class CStatic
 	{
 		private int m = 35;
-		public int y
+		public int Y
 		{
 			get
 			{
@@ -26,8 +26,8 @@ namespace ConsoleApplication11
 		{
 			CStatic p = new CStatic();//создается экземпляр класса
 			Console.WriteLine("{0}", p.y);
-			p.y = 75;
-			int z = p.y;
+			p.Y = 75;
+			int z = p.Y;
 			Console.WriteLine("{0}", z);
 			Console.ReadKey();
 		}
