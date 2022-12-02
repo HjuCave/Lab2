@@ -19,20 +19,18 @@ namespace LABVAR5
 		}
 		public float sum;
 		public float sred;
+
 		public float sumread
 		{
 			get { return sum; }
 		}
-
 		public float sredread
 		{
 			get { return sred; }
 		}
-	}
-	public class Counting
-    {
+
 		public void Count()
-        {
+		{
 			Classic obj = new Classic();
 			for (int i = 0; i < 5; i++)
 			{
@@ -48,12 +46,13 @@ namespace LABVAR5
 			Console.WriteLine("Среднее арифметическое = {0}", obj.sredread);
 			Console.ReadKey();
 		}
-    }
+	}
+	
 	class Class
 	{ 
         static void Main(string[] args)
         {
-			Counting count = new Counting();
+			Classic count = new Classic();
 			count.Count();
         }
     }
