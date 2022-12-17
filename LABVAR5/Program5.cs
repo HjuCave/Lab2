@@ -18,13 +18,13 @@ namespace LABVAR5
 			}
 		}
 		public float sum;
-		public float sred;
-
 		public float sumread
 		{
 			get { return sum; }
 		}
-		public float sredread
+
+        public float sred;
+        public float sredread
 		{
 			get { return sred; }
 		}

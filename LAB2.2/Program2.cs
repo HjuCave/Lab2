@@ -25,7 +25,7 @@ namespace ConsoleApplication11
 		static void Main(string[] args)
 		{
 			CStatic p = new CStatic();//создается экземпляр класса
-			Console.WriteLine("{0}", p.y);
+			Console.WriteLine("{0}", p.Y);
 			p.Y = 75;
 			int z = p.Y;
 			Console.WriteLine("{0}", z);
